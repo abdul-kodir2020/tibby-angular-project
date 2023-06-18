@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'tibby-angular-project';
+  show: boolean = false
+
+  onNotifyShow(){
+    this.show = true
+  }
+
+  onNotifyClose(){
+    this.show = false
+  }
 }

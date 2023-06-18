@@ -1,0 +1,14 @@
+.button{
+    height: 15vw;
+    width: 15vw;
+    border-radius: 100%;
+    border: 7px solid white;
+    background-color: #F6D25A;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.button img{
+    height: 100%;
+    width: 100%;
+}
